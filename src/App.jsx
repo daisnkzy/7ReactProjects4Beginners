@@ -9,7 +9,7 @@ function App() {
 
     'https://images.pexels.com/photos/1166209/pexels-photo-1166209.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
   ];
-
+  // const [img,setImg] = useState(pic[0]);
   const [count, setCount] = useState(0); //这里的img与pic不能同名，因为是const定义的
   //不使用img来表示pic[0],而是使用count表示0.这样就可以轻松地通过改变count来切换pic
   const goPrevious = () => {
