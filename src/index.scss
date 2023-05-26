@@ -1,0 +1,24 @@
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  .form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-size: 42px;
+    cursor: pointer;
+    user-select: none;//取消快速点击切换时浏览器选中文本
+    
+    img{
+      width: 500px;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+  }
+}
