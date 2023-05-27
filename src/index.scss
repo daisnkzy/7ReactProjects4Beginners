@@ -1,0 +1,28 @@
+.App{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  
+  flex-direction: column;
+ background-color: #FFCCCC;
+  .container{
+    margin-top: 150px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    border: 1.5px solid lightgray;
+    h2{
+      text-align: center;
+    }
+    button{
+      padding: 5px 10px;
+      border-radius: 5px;
+      border: 2px solid #6699CC;
+      background-color: #FFCCCC;
+      
+    }
+  }
+}
